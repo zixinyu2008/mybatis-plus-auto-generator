@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE generatorConfiguration  
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+  
+  
+<generatorConfiguration>
+
+<moduleName defaultName="DefaultProject">
+	<property name="moduleName" value="apass"/>
+</moduleName>
+<outputDir location="H:/UsefulData/mybatis-plus" />
+
+<author name="" default="Author" />
+
+<opnenDir value="" defaultValue="false"/>
+
+<fileOverWrite value="true" defaultValue="true"/>
+
+<idType value="" defaultValue="AUTO"/>
+
+<dateType value="" defaultValue="ONLY_DATE"/>
+
+<swagger2 value="" defaultValue="false"/>
+
+<jdbcConnection>
+	<driverClass value="com.mysql.cj.jdbc.Driver"  />
+	<url value=""  />
+	<username value=""  />
+	<password value=""/>
+</jdbcConnection>
+
+<dbType value="" defaultValue="MYSQL"/>
+
+<javaMaintPackage value="" defaultValue="com.weiyun"/>
+
+<javaClientGeneratorController value="" defaultValue="controller"/>
+
+<javaModelGeneratorEntity value="" defaultValue="entity"/>
+
+<javaModelGeneratorService value="" defaultValue="service"/>
+
+<javaModelGeneratorMapper value="" defaultValue="mapper"/>
+
+<tableInstall>
+	<table> 
+		<tableName value="T_API_RESOURCE"/> 
+		<domainObjectName value="ApiResource"/>  
+		<tablePrifix value="t_" />
+		<deleted value=""/>
+		<tableAutoFill create_time_value="" update_time_value="" defaultCreateTime="create_time" defaultUpdateTime="update_time" />
+		<versionFieldName value="version" />
+		<controllerMappingHyphenStyle value="true" defaultValue="true"/>
+	</table>
+	
+	<table> 
+		<tableName value="T_APPLICATION"/> 
+		<domainObjectName value="Application"/>  
+		<tablePrifix value="t_" />
+		<deleted value=""/>
+		<tableAutoFill create_time_value="" update_time_value="" defaultCreateTime="create_time" defaultUpdateTime="update_time" />
+		<versionFieldName value="version" />
+		<controllerMappingHyphenStyle value="true" defaultValue="true"/>
+	</table>
+	
+</tableInstall>
+
+
+</generatorConfiguration> 
